@@ -832,7 +832,6 @@ html {
    .products-top {
     text-align: center;
     margin-bottom: 3rem;
-    margin-top: 20rem;
    }
 
    .products-icons {
@@ -848,6 +847,9 @@ html {
    .products-icons:last-child {
     margin-right: 2rem;
    }
+    .pricing {
+         margin-top: 20rem;
+    }
 
    .article span {
     font-size: 1.5rem;
