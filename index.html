@@ -22,9 +22,10 @@
                  <span>FURNITURE</span>  
                 </div>
                 <div class="search-bar">
-                    <input type="text" placeholder="what are you lookilng for?">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="What are you looking for?" id="search-input">
+                    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
                 </div>
+                
                 <div class="user">
                  <i class="fa-solid fa-cart-shopping"> </i>
                  <span>$0.00</span>
@@ -291,11 +292,28 @@
   <i class="fa-solid fa-couch"></i>
   <h1>FURNITURE</h1>  
 </div>
+<div class="feedback-widget">Feedback</div>
+<div class="feedback-panel">
+    <h3>Leave Feedback</h3>
+    <div class="emoji-rating">
+        <button class="emoji-btn" data-rating="1">😞</button>
+        <button class="emoji-btn" data-rating="2">😐</button>
+        <button class="emoji-btn" data-rating="3">😊</button>
+        <button class="emoji-btn" data-rating="4">😁</button>
+        <button class="emoji-btn" data-rating="5">🌟</button>
+    </div>
+    <textarea placeholder="Leave a comment"></textarea>
+    <button id="submit-feedback">Submit</button>
+</div>
+
+
 </footer>
 
          <!-- End of Footer-->
     </div>
     <!--end of container-->
+    <script src="./index.js"></script>
+    <script src="./search.js"></script>
 
 </body>
 </html>
